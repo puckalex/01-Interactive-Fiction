@@ -1,0 +1,192 @@
+{
+    "passages": [
+      {
+        "text": "You are standing in city square of the bustling desert town of Palmyra. In front of you lies a gleaming water fountain, lining the edges of the square is a suite of market stalls ranging in goods. There are two main roads leading out of the square, the one to your right looks to be the residential area, the one to your left seems to lead to the temple.\n\n[[Inspect the fountain->Fountain]]\n[[Inspect the trading stalls->Cabbage Stand]]\n[[Walk down the right street to the residential area->Residential Area]]\n[[Walk down the left street to the temple->Temple]]",
+        "links": [
+          {
+            "name": "Inspect the fountain",
+            "link": "Fountain",
+            "pid": "2"
+          },
+          {
+            "name": "Inspect the trading stalls",
+            "link": "Cabbage Stand",
+            "pid": "3"
+          },
+          {
+            "name": "Walk down the right street to the residential area",
+            "link": "Residential Area",
+            "pid": "4"
+          },
+          {
+            "name": "Walk down the left street to the temple ",
+            "link": "Temple",
+            "pid": "5"
+          }
+        ],
+        "name": "City Square",
+        "pid": "1",
+        "position": {
+          "x": "404",
+          "y": "170"
+        }
+      },
+      {
+        "text": "The large fountain serves as the main source of water for the village. Many people visit with large jugs to take back to their residence. The water looks crystal clear and the fountain is well maintained. You notice a small salamander on the edge of the fountain.\n\n[[Move on to the market stalls->Cabbage Stand]]\n[[Fish the salamander out of the fountain->Jail]]\n[[Follow someone into the residential area->Residential Area]]\n[[Head towards the temple->Temple]]",
+        "links": [
+          {
+            "name": "Move on to the market stalls",
+            "link": "Cabbage Stand",
+            "pid": "3"
+          },
+          {
+            "name": "Fish the salamander out of the fountain",
+            "link": "Jail",
+            "pid": "6"
+          },
+          {
+            "name": "Follow someone into the residential area",
+            "link": "Residential Area",
+            "pid": "4"
+          },
+          {
+            "name": "Head towards the temple",
+            "link": "Temple",
+            "pid": "5"
+          }
+        ],
+        "name": "Fountain",
+        "pid": "2",
+        "position": {
+          "x": "179",
+          "y": "320"
+        }
+      },
+      {
+        "text": "As you approach the line of stalls it seems everything under the sun is being sold here. There's a plethera of food stalls, several textile carts, some weapon shops, and even some high class jewlery shops. One specific stand catches your attention, next to it an elderly man in green is crying out about the cabbages strewn about the ground while a young boy dashes off throwing large gusts of wind. You approach to help the elerly man salvage what is left of his stock. Although you are unable to understand his language you can tell he is thankful and you bid him adieu.\n\n[[Inspect the fountain->Fountain]]\n[[head Towars the temple->Temple]]\n[[head Towars the residential area->Residential Area]]",
+        "links": [
+          {
+            "name": "Inspect the fountain",
+            "link": "Fountain",
+            "pid": "2"
+          },
+          {
+            "name": "head Towars the temple",
+            "link": "Temple",
+            "pid": "5"
+          },
+          {
+            "name": "head Towars the residential area",
+            "link": "Residential Area",
+            "pid": "4"
+          }
+        ],
+        "name": "Cabbage Stand",
+        "pid": "3",
+        "position": {
+          "x": "511",
+          "y": "322"
+        }
+      },
+      {
+        "text": "As you walk down the street, your gaze lingers first on a roudy tavern labeled the Camel's Back, next on the high class inn called the Meerkat's Burrow, and lastly you lay eyes on the rows and rows of small adobe houses lining the street. You pass several carriges along the road, some packed with supplies and others immaculate passenger carriges with gold trim and expensive looking upholstery. There are many people mulling about, doing everything from carrying water jugs, to groceries, to playing cards. A little farther down the street you see a group of children kicking a ball just in time to watch it come careening strait past your face.\n\n[[Enter the Camel's Back->Camel's Back]]\n[[Enter the Meerkat's Burrow->Meerkat Burrow]]\n[[Return to the City Square->City Square]]",
+        "links": [
+          {
+            "name": "Enter the Camel's Back",
+            "link": "Camel's Back",
+            "pid": "7"
+          },
+          {
+            "name": "Enter the Meerkat's Burrow",
+            "link": "Meerkat Burrow",
+            "pid": "8"
+          },
+          {
+            "name": "Return to the City Square",
+            "link": "City Square",
+            "pid": "1"
+          }
+        ],
+        "name": "Residential Area",
+        "pid": "4",
+        "position": {
+          "x": "365",
+          "y": "320"
+        }
+      },
+      {
+        "text": "A Massive marble biulding looms over you as you walk up, great pillars line the exterior supporting the domed roof. Underneath the immaculate canopy of stone sits a pristine Bronze statue of a male deity holding an ornate silver chalice to the sky. Some approach the statue reverantly and neel to say their prayers or leave offerings, others stand silently in awe at the breathtaking sight. You are among the ladder, you are astonished at the level of detail captured in the metal, there is not a blemish to be found. after several miniutes, you finally manage to pry your eyes from the figure and head back the way you came.\n\n[[Return to the square->City Square]]",
+        "links": [
+          {
+            "name": "Return to the square",
+            "link": "City Square",
+            "pid": "1"
+          }
+        ],
+        "name": "Temple",
+        "pid": "5",
+        "position": {
+          "x": "680",
+          "y": "325"
+        }
+      },
+      {
+        "text": "As you go to fish out the salamander it darts further into the fountian. You scrambe to get ahold of the little guy and finally manage to grab him. Just as you do you feel a thich hand fall on your shoulder, as you turn to look behind you and find a large man in what seems to be a guard uniform. He scolds to you in a language you dont understand and drags you away. You find yourself in in a cell, the walls are some sort of sandstone and there are benches lining them. A man in an official looking uniform enters and walks up to you. He speaks your langauge and explains that you were arrested for attempting to tamper with the drinking supply. You respond, telling him you were only trying to help by fishing the salamander out and show him the small creature still clutched in your hands. He apologizes for the confusion and lets you out.\n\n[[Head back to the Square->City Square]]\n[[Stay in the residential area and have a look around->Residential Area]]",
+        "links": [
+          {
+            "name": "Head back to the Square",
+            "link": "City Square",
+            "pid": "1"
+          },
+          {
+            "name": "Stay in the residential area and have a look around",
+            "link": "Residential Area",
+            "pid": "4"
+          }
+        ],
+        "name": "Jail",
+        "pid": "6",
+        "position": {
+          "x": "170",
+          "y": "485"
+        }
+      },
+      {
+        "text": "The Camels back is a lively place even at mid-day, lively music plays from a stage in the back right, and on the left wall lies the bar, all the tables sit in between. The tavern seems to be at roughly half capacity and most of the patrons seem to be working men taking a break. As your money is not the standard currency of this area you elect to sit down for spell and enjoy the music. After about an hour the musicians come back around to the song you walked in hearing so you turn back towards the door.\n\n[[Return to the residential street->Residential Area]]",
+        "links": [
+          {
+            "name": "Return to the residential street",
+            "link": "Residential Area",
+            "pid": "4"
+          }
+        ],
+        "name": "Camel's Back",
+        "pid": "7",
+        "position": {
+          "x": "317",
+          "y": "484"
+        }
+      },
+      {
+        "text": "The Meerkat Burrow is one of the nicest inns you have ever seen. The second you pass through the door you are hit with a refreshing scent of lavendar and are greeted by a warm smile of the man at the front desk. There is an ornate staircase leading up to a hallway that is lined with sturdy looking doors each labeled in a language you dont understand. The lobby itself is colorful and has extremely soft cushions on every chair. You can tell this is a luxury inn meant for high class travelers, of which you are one. The prices are listed in several languages on the board including your own and your currency, as you suspected the price is high but not outragously so. You pay for your room and are delighted to find out that it is just as well adorned as the rest of the inn. It is still prtty close to mid-day so you decide to go ahead and head back out.\n\n[[Return to the residential street->Residential Area]]",
+        "links": [
+          {
+            "name": "Return to the residential street",
+            "link": "Residential Area",
+            "pid": "4"
+          }
+        ],
+        "name": "Meerkat Burrow",
+        "pid": "8",
+        "position": {
+          "x": "444",
+          "y": "485"
+        }
+      }
+    ],
+    "name": "Fantasy City",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.12",
+    "ifid": "6FE744F4-238E-4D2D-A35F-D40D98B98AA8"
+  }
